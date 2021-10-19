@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #fcfcfc;
+}
+.header{
+    background-color: #f5f5f5;
+    padding: 30px;
+    text-align: center;
+}
+#navbar{
+    overflow: hidden;
+    background-color: rgb(71,71,71);
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#navbar a{
+    padding: 10px;
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+    font-size: 19px;
+    height: 100%;
+}
+#navbar a:hover{
+    background-color: #dddddd;
+    color: black;
+}
+#navbar button{
+    background: #ffffff;
+    border: 0;
+    width: 140px;
+    height: 25px;
+    border-radius: 20px;
+    font-size: 16px;
+}
+.txt{
+    padding: 25px;
+}
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.sticky+.content {
+    padding-top: 70px;
+}
